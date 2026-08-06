@@ -1,22 +1,26 @@
 header{
 background-color: rgb(243, 130, 182);/*cor de fundo*/
 color: black;/*cor da fonte*/
-text-align: center;
-max-width: 800px;
+text-align: center;/*alinhar o texto ao centro*/
+max-width: 800px;/*largura máxima*/
 margin: 0 auto;
 padding: 16px;/*espaçamento interno*/
 border: 5px solid rgb(207, 82, 103) ;
 }
 
 main{
-    background-color: #f191c9;
+    background-color: #f191c9;/*cor de fundo*/
     color: #000000;
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto;
+    text-align: center;/*alinhamento dde texto*/
+    max-width: 800px;/*largura máxima*/
+    margin: 0 auto;/*escapamento externo ao redor do elemento*/
 }
 
 footer{
-    background-color: #e078b5;
-    color: #000000;
+    background-color: #e078b5;/*cor de fundo*/
+    color: #000000;/*cor da fonte*/
+}
+img{
+    width: 80px;/*largura*/
+    height: 80px;/*altura*/
 }
