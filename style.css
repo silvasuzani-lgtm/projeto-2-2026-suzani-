@@ -16,12 +16,13 @@ main{
     margin: 0 auto;/*escapamento externo ao redor do elemento*/
     display: flex;/*habilita o uso de flex box*/
     padding: 16px;/*escapamento interno*/
-    flex-direction: row;/*orienta os elementos na orizontal*/
+    flex-direction: row;/*orienta os elementos na horizontal na orde 1, 2, 3*/
 }
 
 footer{
     background-color: #e078b5;/*cor de fundo*/
     color: #000000;/*cor da fonte*/
+    max-width: 800px;/* largura máxima */
 }
 img{
     width: 80px;/*largura*/
