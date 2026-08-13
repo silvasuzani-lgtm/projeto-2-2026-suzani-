@@ -28,3 +28,7 @@ img{
     width: 80px;/*largura*/
     height: 80px;/*altura*/
 } 
+.artigo-autor {
+    font-weight: bold;
+}
+
