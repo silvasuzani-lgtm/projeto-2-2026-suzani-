@@ -13,7 +13,7 @@ main{
     color: #000000;
     text-align: center;/*alinhamento dde texto*/
     max-width: 800px;/*largura máxima*/
-   margin: 0 auto ;/*margens*/
+   margin: 0 auto ;/*expaçamento externo ao redor do elemento*/
     padding: 16px;/*escapamento interno*/
     flex-direction: row;/*orienta os elementos na horizontal na orde 1, 2, 3*/
 }
