@@ -33,7 +33,11 @@
             const botao=document.querySelector("button");//cria uma variável chamada botão selecionando a taga "button"
             botao.addEventListener("click, botaoClicado");//verifica se o botão foi clicado 
             
-            function botaoClicado()
+            function botaoClicado(){//cria uma função 
+                console.log("Fui clicado");//mostra swe o botão foi clicado
+                let texto=document.querySelector("span");//criar uma variavel chamada "texto" selecionando a tag span
+                texto.textContent++;// muda o valor do texto adicionado de uma unidade
+         }
 
     
          </script>
