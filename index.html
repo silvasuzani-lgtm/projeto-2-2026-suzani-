@@ -22,6 +22,7 @@
         <p class="artigo-autor" > :suzi</p>
         <p>boa vindas ao meu blog!</p>
         <button>💖​<span>0</span></button>
+        <button>💖<samp>0</samp></button>
         </div>
        
     </main>
@@ -30,14 +31,17 @@
 
          </body>
          <script>
-            const botao=document.querySelector("button");//cria uma variável chamada botão selecionando a tag "button"
-            botao.addEventListener("click", botaoClicado);//verifica se o botão foi clicado a
+            const botao=document.querySelectorAll("button");//cria uma variável chamada botão selecionando a tag "button"
+            botoes.forEach(function(botao){
+            botao.addEventListener("click", botaoClicado);//verifica se o botão foi clicado a tag spam
             
             function botaoClicado(){//cria uma função 
                 console.log("Fui clicado");//mostra swe o botão foi clicado
                 let texto=document.querySelector("span");//criar uma variavel chamada "texto" selecionando a tag span
                 texto.textContent++;// muda o valor do texto adicionado de uma unidade
-         }
+
+        }
+        )}
 
     
          </script>
