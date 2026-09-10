@@ -1,13 +1,12 @@
 header{
 background-color: rgb(243, 130, 182);/*cor de fundo*/
 color: black;/*cor da fonte*/
-text-align: center;/*alinhar o texto ao centro*/
+text-align: center;/*alinhar o texo*/
 max-width: 800px;/*largura máxima*/
 margin: 0 auto;
 padding: 16px;/*espaçamento interno*/
 border: 5px solid rgb(207, 82, 103) ;
 }
-
 main{
     background-color: #f191c9;/*cor de fundo*/
     color: #000000;
@@ -15,6 +14,7 @@ main{
     max-width: 800px;/*largura máxima*/
    margin: 0 auto ;/*expaçamento externo ao redor do elemento*/
     padding: 16px;/*escapamento interno*/
+    display: flex;/*habilita o uso do flex box*/
     flex-direction: row;/*orienta os elementos na horizontal na orde 1, 2, 3*/
 }
 
@@ -23,9 +23,10 @@ footer{
     color: #000000;/*cor da fonte*/
     max-width: 800px;/* largura máxima */
     display: flex;/*habilita o uso de flex box*/
+    margin:0 auto;/*espaçamento interno ao redor do elemento*/
+    padding: 16px;/*espaçamento interno*/
+    }
 
-
-}
 img{
     width: 80px;/*largura*/
     height: 80px;/*altura*/
